@@ -6,7 +6,7 @@ mongo:
     "--smallfiles"
 
 steamer:
-  build: .
+  build: ../
   links:
     - mongo:mongodb
   ports:

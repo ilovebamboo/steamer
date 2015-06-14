@@ -12,8 +12,8 @@ import (
 	
 	// youtube
 	"flag"
-	"github.com/Go-Docker-Hackathon/team-iDareX/vendor/download/youtube"
-	"github.com/Go-Docker-Hackathon/team-iDareX/vendor/db/mongo"
+	"github.com/dcb9/steamer/vendor/download/youtube"
+	"github.com/dcb9/steamer/vendor/db/mongo"
 )
 
 var NWorkers = flag.Int("n", 5, "The number of workers to start")

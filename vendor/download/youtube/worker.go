@@ -2,8 +2,8 @@ package youtube
 
 import (
 	"fmt"
-	"github.com/Go-Docker-Hackathon/team-iDareX/vendor/db/mongo"
-	"github.com/Go-Docker-Hackathon/team-iDareX/vendor/upload/qiniu"
+	"github.com/dcb9/steamer/vendor/db/mongo"
+	"github.com/dcb9/steamer/vendor/upload/qiniu"
 	"labix.org/v2/mgo/bson"
 )
 
